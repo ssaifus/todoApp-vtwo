@@ -1,0 +1,10 @@
+<table id="tasks">
+    <tr>
+        <th>S. No.</th>
+        <th>Task Name</th>
+    </tr>
+    <tr *ngFor="let item of todolist">
+        <td>{{item.No}}</td>
+        <td>{{item.Task}}</td>
+    </tr>
+</table>
